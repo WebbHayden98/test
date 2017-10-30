@@ -8,7 +8,7 @@ while True:
     hand2 = random.randint (2,11)
     hvalue = hand2 + hand1
     print 'Your hand value is: ', hvalue
-    
+
     if hand1 == 11:
       acevalue = hvalue - 10
       hand1 = 'Ace'
